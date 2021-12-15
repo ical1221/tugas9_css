@@ -1,0 +1,23 @@
+body {
+    background-image: url("slider2.jpg");
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+}
+div{
+    background-color: white;
+    position: relative;
+    float:right;
+    z-index: 2;
+}
+img {
+    float: right;
+    position:relative;
+    top:400px;
+    right: 100px;
+    z-index:1;
+}
+p,h1 {
+    text-align: right;
+}
